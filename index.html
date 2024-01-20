@@ -225,6 +225,20 @@
       </div><!-- Fin section -->
       
       <style>
+         .map-wrapper {
+    position: relative;
+    padding-bottom: 75%; /* Set the aspect ratio (height:width) for the map */
+    height: 0;
+    overflow: hidden;
+  }
+
+  .map-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
         .contact-buttons {
           display: flex;
           justify-content: center;
